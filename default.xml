@@ -18,6 +18,15 @@
            sync-c="true"
            sync-j="4" />
 
+  <!-- Gitea -->
+  <remote  name="gitea"
+           fetch="https://git.keksla.wtf/" />
+           
+  <!-- GitHub (StatiXOS) -->
+  <remote  name="statix"
+           revision="bp2a"
+           fetch="https://github.com/StatiXOS/" />
+
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
